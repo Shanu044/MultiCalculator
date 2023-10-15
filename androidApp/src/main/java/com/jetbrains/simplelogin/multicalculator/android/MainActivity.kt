@@ -88,7 +88,7 @@ fun CalcView() {
         Text(
             text = display.value,
             modifier = Modifier
-                .height(50.dp)
+                .height(45.dp)
                 .padding(5.dp)
                 .fillMaxWidth()
                 .background(Color.LightGray)
@@ -128,7 +128,7 @@ fun CalcView() {
 
         Button(
             modifier = Modifier.padding(4.dp),
-            onClick = { 0 }
+            onClick = {0}
         ) {
             Text("=")
         }
