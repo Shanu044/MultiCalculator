@@ -5,6 +5,7 @@ plugins {
     kotlin("android").version("1.8.21").apply(false)
     kotlin("multiplatform").version("1.8.21").apply(false)
     "kotlin-android-extensions"
+
 }
 
 tasks.register("clean", Delete::class) {

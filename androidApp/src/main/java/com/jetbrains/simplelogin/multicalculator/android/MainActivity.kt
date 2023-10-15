@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
     }
 
 }
+
 @Preview
 @Composable
 fun CalcView() {
@@ -73,7 +74,7 @@ fun CalcView() {
     fun CalcRow(display: MutableState<String>, startNum: Int, numButtons: Int) {
         val endNum = startNum + numButtons
         val displayText = remember { mutableStateOf("0") }
-        Row(modifier = Modifier.padding( 4.dp)) {
+        Row(modifier = Modifier.padding( 14.dp)) {
             for (i in startNum until endNum) {
 
                 CalcNumericButton(i, displayText)
