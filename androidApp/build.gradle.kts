@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.jetbrains.simplelogin.multicalculator.android"
+    namespace = "com.jetbrains.simplelogin.Multicalculator.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.jetbrains.simplelogin.multicalculator.android"
+        applicationId = "com.jetbrains.simplelogin.Multicalculator.android"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

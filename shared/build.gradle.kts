@@ -40,7 +40,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.jetbrains.simplelogin.democalculator"
+    namespace = "com.jetbrains.simplelogin.Multicalculator"
     compileSdk = 33
     defaultConfig {
         minSdk = 24
