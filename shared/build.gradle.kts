@@ -14,7 +14,7 @@ kotlin {
             }
         }
     }
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -40,9 +40,9 @@ kotlin {
 }
 
 android {
-    namespace = "com.jetbrains.simplelogin.multicalculator"
+    namespace = "com.jetbrains.simplelogin.democalculator"
     compileSdk = 33
     defaultConfig {
-        minSdk = 23
+        minSdk = 24
     }
 }

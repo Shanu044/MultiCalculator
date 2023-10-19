@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     kotlin("android")
-    id ("kotlin-android-extensions")
 }
 
 android {
@@ -9,7 +8,7 @@ android {
     compileSdk = 33
     defaultConfig {
         applicationId = "com.jetbrains.simplelogin.multicalculator.android"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
